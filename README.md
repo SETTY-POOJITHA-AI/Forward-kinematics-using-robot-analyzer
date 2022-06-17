@@ -32,47 +32,37 @@ ai for the link length. Once I’ve obtained them, I can just plug them in to th
  
 
 ### PROCEDURE:
-
-
-
-
+1. open the roboanalyzer software.
+2. select the robot and its degrees of freedom.
+3. change the values with the link lenght wherever necessary.
+4. simulate the model for forward kinematics.
+5. plot the graph between the link and the joints.
+6. update the DH parameters of the link configuration and end effector configuration.
 
 ### SIMULATION 
- 
- 
- 
- 
- 
- 
- 
- ### PLOT 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
- 
- 
+### 6 DOF:
+![output](sc1.png)
+### 4 DOF:
+![output](sc2.png)
 
 
 
 
 
+### PLOT
+### 6 DOF :
+![output](sc3.2.png)
+![output](sc3.png)
+![output](sc3.1.jpg)
+### 4 DOF:
+![output](sc4.jpg)
+![output](sc4.1.png)
+![output](sc4.2.png)
 
-
-
-
-
-
-
-
+ 
+ 
+ 
+ 
 
 ### RESULTS :  
+Thus, the forward kinematics using DH paramerters for a 4 and 6 dof robot using roboanalyzer is analysed and the graph for link cordinates and joint angles is plotted.
